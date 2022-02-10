@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.screen {
+  background-image: url("../Images/Music.png");
+  color: #fff;
+  font-family: Poppins;
+  background-size: 100% 100%;
+  height: 680px;
+  margin-top: 5em;
+}
+@media screen and (min-device-width: 120px) and (max-device-width: 768px) {
+  .screen {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 250px !important;
+    padding: 10px;
+  }
+}

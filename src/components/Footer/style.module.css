@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+.copyright {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #6174b9;
+  border: solid 1px #6174b9;
+  color: #fff;
+  padding: 10px;
+  font-family: Poppins;
+  font-size: 16px;
+  bottom: 0;
+  line-height: 1.75;
+  z-index: -1;
+}
+.copyright .two {
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 35px;
+  cursor: pointer;
+  color: #ffffff;
+}
+@media screen and (min-device-width: 120px) and (max-device-width: 768px) {
+  .copyright .one {
+    display: none;
+  }
+  .two {
+    margin: auto;
+  }
+}

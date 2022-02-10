@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+.container {
+  display: flex;
+  font-family: Poppins;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.left h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  color: #6174b9;
+}
+.left .two {
+  margin-top: -2em;
+  margin-left: 2.68em;
+}
+.left .three {
+  margin-top: -2em;
+  margin-left: 3.02em;
+}
+.left .four {
+  margin-top: -2em;
+  margin-left: 0.6em;
+}
+.right ul li {
+  padding: 14px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444c58;
+  width: 197px;
+}
+.right ul .active {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  width: 197px;
+  color: #6174b9;
+}
+@media screen and (min-device-width: 120px) and (max-device-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .left .two {
+    text-align: center;
+  }
+}
