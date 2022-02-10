@@ -16,7 +16,7 @@ This is a task of creating web Application
 
 ## Steps to clone and run the application
 
-- git clone from [Link](https://github.com/Saravanakumarke/Covid)
+- git clone from [Link](https://github.com/Saravanakumarke/surveysparrow)
 
 - npm install
 
@@ -24,7 +24,7 @@ This is a task of creating web Application
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Demo app link [Link](https://customercontenthub.netlify.app/)
+Demo app link [Link](https://maxeon-cool-site.netlify.app/)
 
 ## Contact
 
